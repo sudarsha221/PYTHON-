@@ -1,0 +1,33 @@
+# What is While loop?
+Python While Loop is used to execute a block of statements repeatedly until a given condition is satisfied. When the condition becomes false, the line immediately after the loop in the program is executed.
+
+# Syntax
+while expression:
+    statement(s)
+
+condition: This is a boolean expression. If it evaluates to True, the code inside the loop will execute.
+statement(s): These are the statements that will be executed during each iteration of the loop.
+
+# EX
+count = 0
+while count < 3:
+    count = count + 1
+    print("Hello")
+
+
+# Infinite while Loop
+Here, the value of the condition is always True. Therefore, the body of the loop is run infinite times until the memory is full.
+
+# ex:
+age = 28
+# the test condition is always True
+while age > 19:
+    print('Infinite Loop')
+
+
+
+
+
+
+
+
