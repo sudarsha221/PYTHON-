@@ -1,0 +1,13 @@
+a=int(input("enter a number"))
+temp=a
+rev=0
+digit=0
+while a>0:
+    digit=a%10
+    rev=rev*10+digit
+    a//=10
+    
+if rev==temp:
+    print("it is a polindrome ")
+else:
+    print("not a polindrome")
