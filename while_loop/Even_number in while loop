@@ -5,3 +5,11 @@ while i<a:
         print("even number")
         break
     i+=1
+
+
+another method without using  while 
+
+a=int(input("enter a number"))
+total=a*(a+1)//2
+print(total)
+
