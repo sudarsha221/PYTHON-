@@ -1,0 +1,27 @@
+FOR LOOP
+The for loop in Python provides the ability to loop over the items of any sequence, such as a list, tuple or a string.
+It performs the same action on each item of the sequence.
+This loop starts with the for keyword, followed by a variable that represents the current item in the sequence. 
+The in keyword links the variable to the sequence you want to iterate over.
+
+SYNTAX:
+for iterating_var in sequence:
+   statement(s)
+
+
+# range() function 
+range() function returns an iterator object that streams a sequence of numbers.
+This object contains integers from start to stop, separated by step parameter.
+
+Syntax
+The range() function has the following syntax −
+
+range(start, stop, step)
+Where,
+
+Start − Starting value of the range. Optional. Default is 0
+
+Stop − The range goes upto stop-1
+
+Step − Integers in the range increment by the step value. Option, default is 1
+
