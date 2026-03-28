@@ -1,0 +1,15 @@
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+# store original values
+x, y = a, b
+
+# find GCD
+while b != 0:
+    a, b = b, a % b
+
+gcd = a
+
+lcm = (x * y) // gcd
+
+print("LCM is:", lcm)
