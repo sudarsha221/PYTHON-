@@ -1,5 +1,6 @@
 a=int(input("enter the number"))
 n=len(str(a))
+temp=a
 print(n)
 total=0
 digit=0
@@ -7,4 +8,7 @@ while a>0:
     digit=a%10
     total+=digit**int(n)
     a//=10
-print(total)
+if  temp==total:
+    print("it is a aramstrong number")
+else:
+    print("not a aramstrong")
