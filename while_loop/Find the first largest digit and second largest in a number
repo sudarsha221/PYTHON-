@@ -1,0 +1,13 @@
+a=123145678
+large=0
+small=0
+while a>0:
+    digit=a%10
+    if digit>large:
+        small=large
+        large=digit
+    elif digit>small or digit!=large:
+        small=digit
+    a//=10
+print(large)
+print(small)
