@@ -1,0 +1,12 @@
+a=12000120012
+result=0
+digit=0
+place = 1
+while a>0:
+    digit=a%10
+    if digit!=0:
+        result+=digit* place
+        place *= 10
+    
+    a//=10
+print(result)
